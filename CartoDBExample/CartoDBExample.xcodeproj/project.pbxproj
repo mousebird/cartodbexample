@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4AE45B176A265100850F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE45A176A265100850F3F /* UIKit.framework */; };
+		2B4AE45D176A265100850F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE45C176A265100850F3F /* Foundation.framework */; };
+		2B4AE45F176A265100850F3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE45E176A265100850F3F /* CoreGraphics.framework */; };
+		2B4AE465176A265100850F3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B4AE463176A265100850F3F /* InfoPlist.strings */; };
+		2B4AE467176A265100850F3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE466176A265100850F3F /* main.m */; };
+		2B4AE46B176A265100850F3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE46A176A265100850F3F /* AppDelegate.m */; };
+		2B4AE46D176A265100850F3F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4AE46C176A265100850F3F /* Default.png */; };
+		2B4AE46F176A265100850F3F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4AE46E176A265100850F3F /* Default@2x.png */; };
+		2B4AE471176A265100850F3F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4AE470176A265100850F3F /* Default-568h@2x.png */; };
+		2B4AE47B176A279600850F3F /* GlobeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE47A176A279600850F3F /* GlobeViewController.m */; };
+		2B4AE484176A2C8500850F3F /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE482176A2A5200850F3F /* libWhirlyGlobe-MaplyComponent.a */; };
+		2B4AE486176A2CD100850F3F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE485176A2CD100850F3F /* OpenGLES.framework */; };
+		2B4AE488176A2CE200850F3F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE487176A2CE200850F3F /* CoreText.framework */; };
+		2B4AE48A176A2CEB00850F3F /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE489176A2CEB00850F3F /* libstdc++.dylib */; };
+		2B4AE48C176A2CF200850F3F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE48B176A2CF200850F3F /* libsqlite3.dylib */; };
+		2B4AE48E176A2CF900850F3F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE48D176A2CF900850F3F /* QuartzCore.framework */; };
+		2B4AE490176A2DAD00850F3F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AE48F176A2DAD00850F3F /* CoreLocation.framework */; };
+		2B4AE4A5176A337F00850F3F /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE493176A337F00850F3F /* AFHTTPClient.m */; };
+		2B4AE4A6176A337F00850F3F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE495176A337F00850F3F /* AFHTTPRequestOperation.m */; };
+		2B4AE4A7176A337F00850F3F /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE497176A337F00850F3F /* AFImageRequestOperation.m */; };
+		2B4AE4A8176A337F00850F3F /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE499176A337F00850F3F /* AFJSONRequestOperation.m */; };
+		2B4AE4A9176A337F00850F3F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE49B176A337F00850F3F /* AFNetworkActivityIndicatorManager.m */; };
+		2B4AE4AA176A337F00850F3F /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE49E176A337F00850F3F /* AFPropertyListRequestOperation.m */; };
+		2B4AE4AB176A337F00850F3F /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE4A0176A337F00850F3F /* AFURLConnectionOperation.m */; };
+		2B4AE4AC176A337F00850F3F /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE4A2176A337F00850F3F /* AFXMLRequestOperation.m */; };
+		2B4AE4AD176A337F00850F3F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE4A4176A337F00850F3F /* UIImageView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4AE481176A2A5200850F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4AE47C176A2A5100850F3F /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B11E0DB15B4C030007AAE3F;
+			remoteInfo = "WhirlyGlobe-MaplyComponent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B4AE457176A265100850F3F /* CartoDBExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartoDBExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4AE45A176A265100850F3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B4AE45C176A265100850F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B4AE45E176A265100850F3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B4AE462176A265100850F3F /* CartoDBExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CartoDBExample-Info.plist"; sourceTree = "<group>"; };
+		2B4AE464176A265100850F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B4AE466176A265100850F3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B4AE468176A265100850F3F /* CartoDBExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CartoDBExample-Prefix.pch"; sourceTree = "<group>"; };
+		2B4AE469176A265100850F3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B4AE46A176A265100850F3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B4AE46C176A265100850F3F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2B4AE46E176A265100850F3F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2B4AE470176A265100850F3F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B4AE479176A279600850F3F /* GlobeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeViewController.h; sourceTree = "<group>"; };
+		2B4AE47A176A279600850F3F /* GlobeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeViewController.m; sourceTree = "<group>"; };
+		2B4AE47C176A2A5100850F3F /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
+		2B4AE485176A2CD100850F3F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2B4AE487176A2CE200850F3F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2B4AE489176A2CEB00850F3F /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		2B4AE48B176A2CF200850F3F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2B4AE48D176A2CF900850F3F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B4AE48F176A2DAD00850F3F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B4AE492176A337F00850F3F /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPClient.h"; sourceTree = "<group>"; };
+		2B4AE493176A337F00850F3F /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPClient.m"; sourceTree = "<group>"; };
+		2B4AE494176A337F00850F3F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
+		2B4AE495176A337F00850F3F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperation.m"; sourceTree = "<group>"; };
+		2B4AE496176A337F00850F3F /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFImageRequestOperation.h"; sourceTree = "<group>"; };
+		2B4AE497176A337F00850F3F /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFImageRequestOperation.m"; sourceTree = "<group>"; };
+		2B4AE498176A337F00850F3F /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFJSONRequestOperation.h"; sourceTree = "<group>"; };
+		2B4AE499176A337F00850F3F /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFJSONRequestOperation.m"; sourceTree = "<group>"; };
+		2B4AE49A176A337F00850F3F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		2B4AE49B176A337F00850F3F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		2B4AE49C176A337F00850F3F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFNetworking.h"; sourceTree = "<group>"; };
+		2B4AE49D176A337F00850F3F /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFPropertyListRequestOperation.h"; sourceTree = "<group>"; };
+		2B4AE49E176A337F00850F3F /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m"; sourceTree = "<group>"; };
+		2B4AE49F176A337F00850F3F /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFURLConnectionOperation.h"; sourceTree = "<group>"; };
+		2B4AE4A0176A337F00850F3F /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFURLConnectionOperation.m"; sourceTree = "<group>"; };
+		2B4AE4A1176A337F00850F3F /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFXMLRequestOperation.h"; sourceTree = "<group>"; };
+		2B4AE4A2176A337F00850F3F /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFXMLRequestOperation.m"; sourceTree = "<group>"; };
+		2B4AE4A3176A337F00850F3F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		2B4AE4A4176A337F00850F3F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4AE454176A265100850F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4AE490176A2DAD00850F3F /* CoreLocation.framework in Frameworks */,
+				2B4AE48E176A2CF900850F3F /* QuartzCore.framework in Frameworks */,
+				2B4AE48C176A2CF200850F3F /* libsqlite3.dylib in Frameworks */,
+				2B4AE48A176A2CEB00850F3F /* libstdc++.dylib in Frameworks */,
+				2B4AE488176A2CE200850F3F /* CoreText.framework in Frameworks */,
+				2B4AE45F176A265100850F3F /* CoreGraphics.framework in Frameworks */,
+				2B4AE486176A2CD100850F3F /* OpenGLES.framework in Frameworks */,
+				2B4AE484176A2C8500850F3F /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
+				2B4AE45B176A265100850F3F /* UIKit.framework in Frameworks */,
+				2B4AE45D176A265100850F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4AE44E176A265100850F3F = {
+			isa = PBXGroup;
+			children = (
+				2B4AE48F176A2DAD00850F3F /* CoreLocation.framework */,
+				2B4AE48D176A2CF900850F3F /* QuartzCore.framework */,
+				2B4AE48B176A2CF200850F3F /* libsqlite3.dylib */,
+				2B4AE489176A2CEB00850F3F /* libstdc++.dylib */,
+				2B4AE487176A2CE200850F3F /* CoreText.framework */,
+				2B4AE485176A2CD100850F3F /* OpenGLES.framework */,
+				2B4AE47C176A2A5100850F3F /* WhirlyGlobe-MaplyComponent.xcodeproj */,
+				2B4AE491176A336300850F3F /* AFNetworking */,
+				2B4AE460176A265100850F3F /* CartoDBExample */,
+				2B4AE459176A265100850F3F /* Frameworks */,
+				2B4AE458176A265100850F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4AE458176A265100850F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE457176A265100850F3F /* CartoDBExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4AE459176A265100850F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE45A176A265100850F3F /* UIKit.framework */,
+				2B4AE45C176A265100850F3F /* Foundation.framework */,
+				2B4AE45E176A265100850F3F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B4AE460176A265100850F3F /* CartoDBExample */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE469176A265100850F3F /* AppDelegate.h */,
+				2B4AE46A176A265100850F3F /* AppDelegate.m */,
+				2B4AE479176A279600850F3F /* GlobeViewController.h */,
+				2B4AE47A176A279600850F3F /* GlobeViewController.m */,
+				2B4AE461176A265100850F3F /* Supporting Files */,
+			);
+			path = CartoDBExample;
+			sourceTree = "<group>";
+		};
+		2B4AE461176A265100850F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE462176A265100850F3F /* CartoDBExample-Info.plist */,
+				2B4AE463176A265100850F3F /* InfoPlist.strings */,
+				2B4AE466176A265100850F3F /* main.m */,
+				2B4AE468176A265100850F3F /* CartoDBExample-Prefix.pch */,
+				2B4AE46C176A265100850F3F /* Default.png */,
+				2B4AE46E176A265100850F3F /* Default@2x.png */,
+				2B4AE470176A265100850F3F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B4AE47D176A2A5100850F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE482176A2A5200850F3F /* libWhirlyGlobe-MaplyComponent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4AE491176A336300850F3F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE492176A337F00850F3F /* AFHTTPClient.h */,
+				2B4AE493176A337F00850F3F /* AFHTTPClient.m */,
+				2B4AE494176A337F00850F3F /* AFHTTPRequestOperation.h */,
+				2B4AE495176A337F00850F3F /* AFHTTPRequestOperation.m */,
+				2B4AE496176A337F00850F3F /* AFImageRequestOperation.h */,
+				2B4AE497176A337F00850F3F /* AFImageRequestOperation.m */,
+				2B4AE498176A337F00850F3F /* AFJSONRequestOperation.h */,
+				2B4AE499176A337F00850F3F /* AFJSONRequestOperation.m */,
+				2B4AE49A176A337F00850F3F /* AFNetworkActivityIndicatorManager.h */,
+				2B4AE49B176A337F00850F3F /* AFNetworkActivityIndicatorManager.m */,
+				2B4AE49C176A337F00850F3F /* AFNetworking.h */,
+				2B4AE49D176A337F00850F3F /* AFPropertyListRequestOperation.h */,
+				2B4AE49E176A337F00850F3F /* AFPropertyListRequestOperation.m */,
+				2B4AE49F176A337F00850F3F /* AFURLConnectionOperation.h */,
+				2B4AE4A0176A337F00850F3F /* AFURLConnectionOperation.m */,
+				2B4AE4A1176A337F00850F3F /* AFXMLRequestOperation.h */,
+				2B4AE4A2176A337F00850F3F /* AFXMLRequestOperation.m */,
+				2B4AE4A3176A337F00850F3F /* UIImageView+AFNetworking.h */,
+				2B4AE4A4176A337F00850F3F /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4AE456176A265100850F3F /* CartoDBExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4AE474176A265100850F3F /* Build configuration list for PBXNativeTarget "CartoDBExample" */;
+			buildPhases = (
+				2B4AE453176A265100850F3F /* Sources */,
+				2B4AE454176A265100850F3F /* Frameworks */,
+				2B4AE455176A265100850F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartoDBExample;
+			productName = CartoDBExample;
+			productReference = 2B4AE457176A265100850F3F /* CartoDBExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4AE44F176A265100850F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "mousebird consulting";
+			};
+			buildConfigurationList = 2B4AE452176A265100850F3F /* Build configuration list for PBXProject "CartoDBExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B4AE44E176A265100850F3F;
+			productRefGroup = 2B4AE458176A265100850F3F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2B4AE47D176A2A5100850F3F /* Products */;
+					ProjectRef = 2B4AE47C176A2A5100850F3F /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2B4AE456176A265100850F3F /* CartoDBExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2B4AE482176A2A5200850F3F /* libWhirlyGlobe-MaplyComponent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libWhirlyGlobe-MaplyComponent.a";
+			remoteRef = 2B4AE481176A2A5200850F3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4AE455176A265100850F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4AE465176A265100850F3F /* InfoPlist.strings in Resources */,
+				2B4AE46D176A265100850F3F /* Default.png in Resources */,
+				2B4AE46F176A265100850F3F /* Default@2x.png in Resources */,
+				2B4AE471176A265100850F3F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4AE453176A265100850F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4AE467176A265100850F3F /* main.m in Sources */,
+				2B4AE46B176A265100850F3F /* AppDelegate.m in Sources */,
+				2B4AE47B176A279600850F3F /* GlobeViewController.m in Sources */,
+				2B4AE4A5176A337F00850F3F /* AFHTTPClient.m in Sources */,
+				2B4AE4A6176A337F00850F3F /* AFHTTPRequestOperation.m in Sources */,
+				2B4AE4A7176A337F00850F3F /* AFImageRequestOperation.m in Sources */,
+				2B4AE4A8176A337F00850F3F /* AFJSONRequestOperation.m in Sources */,
+				2B4AE4A9176A337F00850F3F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				2B4AE4AA176A337F00850F3F /* AFPropertyListRequestOperation.m in Sources */,
+				2B4AE4AB176A337F00850F3F /* AFURLConnectionOperation.m in Sources */,
+				2B4AE4AC176A337F00850F3F /* AFXMLRequestOperation.m in Sources */,
+				2B4AE4AD176A337F00850F3F /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B4AE463176A265100850F3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4AE464176A265100850F3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B4AE472176A265100850F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4AE473176A265100850F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4AE475176A265100850F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CartoDBExample/CartoDBExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/\"";
+				INFOPLIST_FILE = "CartoDBExample/CartoDBExample-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B4AE476176A265100850F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CartoDBExample/CartoDBExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/\"";
+				INFOPLIST_FILE = "CartoDBExample/CartoDBExample-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4AE452176A265100850F3F /* Build configuration list for PBXProject "CartoDBExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4AE472176A265100850F3F /* Debug */,
+				2B4AE473176A265100850F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4AE474176A265100850F3F /* Build configuration list for PBXNativeTarget "CartoDBExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4AE475176A265100850F3F /* Debug */,
+				2B4AE476176A265100850F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4AE44F176A265100850F3F /* Project object */;
+}
