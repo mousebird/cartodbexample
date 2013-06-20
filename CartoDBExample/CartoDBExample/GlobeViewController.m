@@ -86,7 +86,7 @@
     
     // Add the the vectors to the globe with a line width a color and other parameters
     MaplyComponentObject *vecCompObj = [globeViewC addVectors:@[vecs] desc:
-                                        @{kMaplyColor: [UIColor whiteColor],kMaplyVecWidth: @(5.0),kMaplyDrawOffset: @(4.0),kMaplyFade: @(1.0)}];
+                                        @{kMaplyColor: [UIColor whiteColor],kMaplyVecWidth: @(5.0),kMaplyDrawOffset: @(0),kMaplyDrawPriority:@(20),kMaplyFade: @(1.0)}];
     if (vecCompObj)
         [compObjs addObject:vecCompObj];
     // But hey, what about a label?  Let's figure out where it should go.
@@ -122,7 +122,7 @@
 
     // Add the the vectors to the globe with a line width a color and other parameters
     MaplyComponentObject *vecCompObj = [globeViewC addVectors:@[vecs] desc:
-                                        @{kMaplyColor: [UIColor brownColor],kMaplyVecWidth: @(2.0),kMaplyDrawOffset: @(2.0),kMaplyFade: @(1.0)}];
+                                        @{kMaplyColor: [UIColor brownColor],kMaplyVecWidth: @(2.0),kMaplyDrawOffset: @(0),kMaplyDrawPriority:@(10), kMaplyFade: @(1.0)}];
     if (vecCompObj)
         [compObjs addObject:vecCompObj];
     
